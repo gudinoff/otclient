@@ -1,0 +1,11 @@
+Module
+  name: client_answer7
+  description: Trial
+  author: Daniel Martins
+  website: https://github.com/gudinoff/otclient
+  sandboxed: true
+  scripts: [ answer7 ]
+  autoload: true
+  autoload-priority: 9999
+  @onLoad: init()
+  @onUnload: terminate()

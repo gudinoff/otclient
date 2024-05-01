@@ -1,0 +1,11 @@
+MainWindow
+  id: answer7window
+  !text: tr('Jump!')
+  size: 200 200
+  @onEscape: toggle()
+
+  Button
+    id: answer7button
+    !text: tr('Jump!')
+    width: 64
+    @onClick: resetButton(self)
